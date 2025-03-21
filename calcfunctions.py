@@ -43,9 +43,21 @@ def square():
     except ValueError:
         print("Error, Non-float Entered")
 def exp():
-    numb1 = ("Number: ")
-    numb2 = ("Exponent: ")
+    numb1 = input("Number: ")
+    numb2 = input("Exponent: ")
     try:
-        print(f"{numb1 ** numb2}")
+        print(f"{float(numb1) ** float(numb2)}")
     except ValueError:
         print("Error, Non-float Entered")
+def vertex():
+    try:
+        a = float(input("a value "))
+        b = float(input("b value "))
+        c = float(input("c value "))
+        x_vertex = (-1 * b)/(2 * a)
+        y_vertex = (a * x_vertex ** 2) + (b * x_vertex) + c
+        print(f'Vertex: ({x_vertex}, {y_vertex})')
+    except ValueError:
+        print("Error, Non-float Entered")
+def convert():
+    pass

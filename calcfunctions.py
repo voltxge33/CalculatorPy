@@ -1,34 +1,34 @@
 import math
 def add():
-    numb1 = input("first# ")
-    numb2 = input("second# ")
+    numb1 = input("First# ")
+    numb2 = input("Second# ")
     try:
         print(f"{float(numb1) + float(numb2)}")
     except ValueError:
         print("Error, Non-floats Entered")
 def subtract():
-    numb1 = input("first# ")
-    numb2 = input("second# ")
+    numb1 = input("First# ")
+    numb2 = input("Second# ")
     try:
         print(f"{float(numb1) - float(numb2)}")
     except ValueError:
         print("Error, Non-floats Entered")
 def multiply():
-    numb1 = input("first# ")
-    numb2 = input("second# ")
+    numb1 = input("First# ")
+    numb2 = input("Second# ")
     try:
         print(f"{float(numb1) * float(numb2)}")
     except ValueError:
         print("Error, Non-floats Entered")
 def divide():
-    numb1 = input("first# ")
-    numb2 = input("second# ")
+    numb1 = input("First# ")
+    numb2 = input("Second# ")
     try:
         print(f"{float(numb1) / float(numb2)}")
     except ValueError:
         print("Error, Non-floats Entered")
 def sqrt():
-    numb1 = input("first# ")
+    numb1 = input("#: ")
 
     try:
         result = math.sqrt(float(numb1))
@@ -37,13 +37,13 @@ def sqrt():
         print("Error, Non-float or negative number entered.")
 def square():
 
-    numb1 = input("first# ")
+    numb1 = input("#: ")
     try:
         print(f"{float(numb1) ** 2}")
     except ValueError:
         print("Error, Non-float Entered")
 def exp():
-    numb1 = input("Number: ")
+    numb1 = input("#: ")
     numb2 = input("Exponent: ")
     try:
         print(f"{float(numb1) ** float(numb2)}")
